@@ -1,0 +1,102 @@
+/* Section */
+.sectionwrap {
+	width: 1224px;
+	height: 694px;
+	margin: 0 auto;
+	background: url(../images/digitaltoolset.jpg) no-repeat top, url(../images/docubg.jpg) no-repeat bottom ;
+}
+section {
+	width: 980px;
+	margin: 0 auto;
+}
+
+section h1 {
+	font-size: 1.7em;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	padding: 225px 0 10px 0;
+}
+section h2 {
+	font-family: tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 10px 0 10px 0;
+}
+section p {
+	width: 475px;
+	color: #000;
+	font-family: tahoma, sans-serif;
+	font-size: 1em;
+	text-align: justify;
+}
+.righttext {
+	width: 470px;
+	float:right;
+	margin-top:-395px;
+}
+ul.services, ul.services2, .list {
+	background: inherit;
+	list-style: inherit;
+	float:none;
+}
+.services {
+	width: 200px;
+	float:left;
+	padding: 0 0 0 16px;
+}
+.services2 {
+	width:227px;
+	float:right;
+	margin: -38px 0 0 270px;	
+}
+.righttext p {
+	margin: 180px 0 0 0;
+}
+.quote {
+	margin-top: 22px;
+}
+.quote a {
+	width: 160px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	padding: 10px 20px 10px 15px;
+	background: url(../images/form.png) no-repeat 159px, -moz-linear-gradient(top, #ff0000, #c40000);
+    background: url(../images/form.png) no-repeat 159px, -ms-linear-gradient(top, #ff0000, #c40000) ;
+    background: url(../images/form.png) no-repeat 159px, -o-linear-gradient(top, #ff0000, #c40000);
+    background: url(../images/form.png) no-repeat 159px, -webkit-linear-gradient(top, #ff0000, #c40000);
+    background: url(../images/form.png) no-repeat 159px, linear-gradient(top, #ff0000, #c40000);
+	display: block;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	text-align: left;
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	box-shadow: 0px 0px 7px #999999;
+
+}
+.quote a:hover {
+	background: url(../images/form.png) no-repeat 159px,  -moz-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px, -ms-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px,  -o-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px, -webkit-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px, linear-gradient(bottom, rgb(255,32,32), #c40000);
+}
+/* Footer */
+footer {
+	clear:both;
+	width: 1224px;
+	height: 38px;
+	margin: 0 auto;
+	background: url(../images/topcolors.png) no-repeat top, #363636;
+	padding: 15px 0 0 0;
+}	
+footer p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: .7em;
+	font-weight: 300;
+	color:#fff;
+	padding-left: 120px;
+	line-height: 38px;
+}

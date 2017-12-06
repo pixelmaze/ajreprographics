@@ -1,0 +1,42 @@
+/* Section */
+.sectionwrap {
+	width: 1224px;
+	height: 220px;
+	margin: 0 auto;
+	background: url(../images/docubg.jpg) no-repeat top ;
+}
+section {
+	width: 980px;
+	margin: 0 auto;
+}
+
+section h1 {
+	font-size: 1.8em;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	text-align: center;
+	padding: 78px 0 0 0;
+}
+section p {
+	color: #000;
+	font-family: tahoma, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+/* Footer */
+footer {
+	width: 1224px;
+	height: 38px;
+	margin: 0 auto;
+	background: url(../images/topcolors.png) no-repeat top, #363636;
+	padding: 15px 0 0 0;
+}	
+footer p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: .7em;
+	font-weight: 300;
+	color:#fff;
+	padding-left: 120px;
+	line-height: 38px;
+}

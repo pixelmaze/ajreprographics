@@ -1,0 +1,85 @@
+/* CSS Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, img,
+ul , ol, li, a, header, nav, section, aside,
+article, footer {
+	margin: 0;
+	padding:0;
+}
+body {
+	 background: #282828;
+}
+
+/* Original width = 1333px */
+
+/* Navigation */
+.cf:before,
+.cf:after {	
+	content: "";
+	display: table;
+}
+.cf:after {	
+	clear:both;
+}
+.cf {
+	width:1224px;
+	margin:0 auto;
+	background: url(../images/topcolors.png) repeat-x top;
+	padding-top: 15px;
+	zoom:1;
+}
+ul, li {	
+	list-style: none;
+	float:left;
+}
+ul {
+	width: 100%;
+	height:38px;
+	background:-moz-linear-gradient(top,#2e2d2d,#000);
+	background:linear-gradient(top,#2e2d2d,#000);
+}
+li {	
+	position: relative;
+}
+li a {	
+	display: block;
+	line-height: 38px;
+	width: 125px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10pt;
+	color: white;
+}
+li a:hover {	
+	background: #ff0000;
+}
+.home {
+	background: #ff0000;
+	margin-left: 30%;
+}
+ul.submenu {
+	float:none;
+	background: #000;
+	width: auto;
+	height: auto;
+	position: absolute;
+	max-height: 0;
+	left:-9000em;	
+	-moz-transition: max-height 0.5s ease-in-out;
+	-webkit-transition: max-height 0.5s ease-in-out;
+	transition: max-height 0.5s ease-in-out;
+	overflow:hidden;
+}
+ul.submenu li {	
+	float:left;
+}
+ul.submenu li a{
+	white-space:nowrap;
+	color: white;
+	text-align: center;
+}
+.topmenu li:hover ul {
+	max-height: 15em;
+	left:0;
+}

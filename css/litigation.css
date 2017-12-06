@@ -1,0 +1,182 @@
+/* Section */
+.sectionwrap {
+	width: 1224px;
+	height: 694px;
+	margin: 0 auto;
+	background: url(../images/litigationtoolset.jpg) no-repeat top, url(../images/docubg.jpg) no-repeat bottom ;
+}
+section {
+	width: 980px;
+	margin: 0 auto;
+}
+
+section h1 {
+	font-size: 1.7em;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	padding: 225px 0 10px 0;
+}
+section h2 {
+	font-family: tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 10px 0 10px 0;
+}
+section p {
+	width: 475px;
+	color: #000;
+	font-family: tahoma, sans-serif;
+	font-size: 1em;
+	text-align: justify;
+}
+.righttext {
+	width: 470px;
+	float:right;
+	margin-top:-395px;
+}
+ul.services, ul.services2, .list {
+	background: inherit;
+	list-style: inherit;
+	float:none;
+}
+.services {
+	width: 200px;
+	float:left;
+	padding: 0 0 0 16px;
+}
+.services2 {
+	width:227px;
+	float:right;
+	margin: -38px 0 0 270px;	
+}
+.righttext p {
+	margin: 180px 0 0 0;
+}
+.quote {
+	margin-top: 22px;
+}
+.quote a {
+	width: 160px;
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	padding: 10px 20px 10px 15px;
+	background: url(../images/form.png) no-repeat 159px, -moz-linear-gradient(top, #ff0000, #c40000);
+    background: url(../images/form.png) no-repeat 159px, -ms-linear-gradient(top, #ff0000, #c40000) ;
+    background: url(../images/form.png) no-repeat 159px, -o-linear-gradient(top, #ff0000, #c40000);
+    background: url(../images/form.png) no-repeat 159px, -webkit-linear-gradient(top, #ff0000, #c40000);
+    background: url(../images/form.png) no-repeat 159px, linear-gradient(top, #ff0000, #c40000);
+	display: block;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	text-align: left;
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	box-shadow: 0px 0px 7px #999999;
+
+}
+.quote a:hover {
+	background: url(../images/form.png) no-repeat 159px,  -moz-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px, -ms-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px,  -o-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px, -webkit-linear-gradient(bottom, rgb(255,32,32), #c40000);
+    background: url(../images/form.png) no-repeat 159px, linear-gradient(bottom, rgb(255,32,32), #c40000);
+}
+
+/*******Accordion*******/
+.accwrap {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 90%;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+article.accordion {
+	display: block;
+	width: 1224px;
+	height:230px;
+	margin: 0 auto;
+	background-color: #666;
+	overflow: auto;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+article.accordion section {
+	position: relative;
+	display: block;
+	float: left;
+	width: 2em;
+	height: 15em;
+	margin: 0.5em 0 0.5em 0.5em;
+	color: #333;
+	background-color: #333;
+	overflow: hidden;
+	border-radius: 3px;
+}
+article.accordion section h2 {
+	position: absolute;
+	font-size: 1em;
+	font-weight: bold;
+	width: 15em;
+	top: 15em; /*  Original 15em. added 6em so that text hides */
+	left: 0;
+	text-indent: 1em; /*  Original 1em. added 6em so that text hides */
+	padding: 0;
+	margin: 0;
+	color: #000;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+article.accordion section h2 a {
+	display: block;
+	width: 100%;
+	line-height: 2em;
+	text-decoration: none;
+	color: inherit;
+	outline: 0 none;
+}
+article.accordion section,
+article.accordion section h2 {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+article.accordion section:target {
+	width: 1065px;
+	height:216px;
+	color: #333;
+	background-color: #fff;
+}
+article.accordion section:target h2 {
+	/* position: static; */
+	font-size: 1.3em;
+	text-indent: -15em; /* Originally 0 */
+	color: #333;
+	/* For h2 rotation 
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg); */
+}
+.accordion h2 {
+	font-family: arial, helvetica, sans-serif;
+	
+}
+
+/* Footer */
+footer {
+	clear:both;
+	width: 1224px;
+	height: 38px;
+	margin: 0 auto;
+	background: url(../images/topcolors.png) no-repeat top, #363636;
+	padding: 15px 0 0 0;
+}	
+footer p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: .7em;
+	font-weight: 300;
+	color:#fff;
+	padding-left: 120px;
+	line-height: 38px;
+}
